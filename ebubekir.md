@@ -1,0 +1,46 @@
+---
+title: /ebubekir
+layout: page
+permalink: /ebubekir
+---
+
+# Ben Kimim
+
+{% highlight python %}
+
+from datetime import datetime as dt
+aboutMe = {
+    "isim"      : "Ebubekir",
+    "yas"       : "22",
+    "universite": "Ankara Üniversitesi",
+    "bölüm"     : "Bilgisayar Mühendisliiği (İngilizce)",
+    "sinif"     : dt.now().year - 2017,
+    "diller"    : {
+        "Türkçe" : [ str(dt.now().year - 1998)  + "+","native"],
+        "English": ["3+","b1+"]
+    },
+    "github" : "ebubekirtrkr",
+    "twitter": "@EbubekirTurker",
+}
+{% endhighlight %}
+
+# Yetenekler
+
+{% highlight python %}
+languageSkills = {
+    "Python"    : ["4+", "8/10"],
+    "C/C++"     : ["3+", "7/10"],
+    "Javascript": ["2+", "4/10"],
+    "PHP"       : ["1+", "5/10"]
+    "Ruby"      : ["0.1+", "0.1/10"],
+}
+{% endhighlight %}
+
+# İlgi alanları
+
+{% highlight python %}
+interests = {
+    "Cyber Security"    : ["2+", "1/10"],
+    "Malware Analysis"     : ["0.2+", "0.000001/10"],
+}
+{% endhighlight %}

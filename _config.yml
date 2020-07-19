@@ -1,0 +1,19 @@
+title: 'Ebubekir Türker'
+description: "404 bio not found!"
+baseurl: ""
+url: "https://ebubekirtrkr.github.io"
+
+header_pages:
+  - index.md
+  - ebubekir.md
+
+style: dark
+
+footer: '<a target="_blank" href="https://github.com/ebubekirtrkr/">github</a> | <a target="_blank" href="https://twitter.com/EbubekirTurker">twitter</a> | <a target="_blank" href="https://www.linkedin.com/in/ebubekir-t%C3%BCrker-322ab092/">linkedin</a> '
+
+plugins:
+  - jekyll-seo-tag
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-console
+#remote_theme: b2a3e8/jekyll-theme-console
