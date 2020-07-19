@@ -17,3 +17,4 @@ plugins:
 markdown: kramdown
 #theme: jekyll-theme-console
 remote_theme: b2a3e8/jekyll-theme-console
+google_analytics: UA-172998111-1
