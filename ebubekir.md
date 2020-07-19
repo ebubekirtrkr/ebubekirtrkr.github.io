@@ -11,7 +11,7 @@ permalink: /ebubekir
 from datetime import datetime as dt
 aboutMe = {
     "isim"      : "Ebubekir",
-    "yas"       : "22",
+    "yas"       : dt.now().year - 1998,
     "universite": "Ankara Üniversitesi",
     "bölüm"     : "Bilgisayar Mühendisliiği (İngilizce)",
     "sinif"     : dt.now().year - 2017,
@@ -40,7 +40,7 @@ languageSkills = {
 
 {% highlight python %}
 interests = {
-    "Cyber Security"    : ["2+", "1/10"],
-    "Malware Analysis"     : ["0.2+", "0.000001/10"],
+    "Cyber Security"  : ["2+", "1/10"],
+    "Malware Analysis": ["0.2+", "0.000001/10"],
 }
 {% endhighlight %}
