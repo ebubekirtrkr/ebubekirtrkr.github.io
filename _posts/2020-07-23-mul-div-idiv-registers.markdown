@@ -14,7 +14,7 @@ In these tables I summarize the registers that used in MUl, DIV/IDIV operations 
 ## DIV/IDIV registers Table
 <table>
   <tr>
-  
+
    <td>Section
 <br>
 Divisor Size
@@ -65,7 +65,7 @@ Divisor Size
    </td>
   </tr>
 </table>
-
+<br>
 <hr>
 
 ## MUL registers Table
@@ -174,7 +174,7 @@ Bölen Boyutu
    </td>
   </tr>
 </table>
-
+<br>
 <hr>
 
 ## MUL’da kullanılan registerler tablosu
