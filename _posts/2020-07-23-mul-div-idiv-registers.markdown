@@ -1,5 +1,6 @@
 <style>
 table {
+  text-align:center;
   border-collapse: collapse;
 }
 
