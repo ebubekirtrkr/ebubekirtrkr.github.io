@@ -1,4 +1,12 @@
+<style>
+table {
+  border-collapse: collapse;
+}
 
+table, td, th {
+  border: 1px solid white;
+}
+</style>
 # English
 In these tables I summarize the registers that used in MUl, DIV/IDIV operations in x86 assembly.
 
