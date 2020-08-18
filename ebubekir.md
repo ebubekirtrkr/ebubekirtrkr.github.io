@@ -40,7 +40,7 @@ languageSkills = {
 
 {% highlight python %}
 interests = {
-    "Cyber Security"  : ["2+", "1/10"],
-    "Malware Analysis": ["0.2+", "0.000001/10"],
+    "Cyber Security"  : ["2+", "1.99/10"],
+    "Malware Analysis": ["0.2+", "0.000099/10"],
 }
 {% endhighlight %}
