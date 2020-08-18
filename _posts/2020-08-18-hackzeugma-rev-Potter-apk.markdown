@@ -65,7 +65,6 @@ public class MainActivity extends c {
     public long r = 100;
     ...
 {% endhighlight %}
-<hr>
 <br>veeee
 
 {% highlight java %}
