@@ -7,7 +7,7 @@ Bu apk'yi yükleyip çalıştırıp butona tıkladığımızda bir textbox'a fla
 <br>
 <br>
 
-<img src="/assets/images/potter/1.png"  width="400"  height="800">
+<img src="/assets/images/potter/1.png"  width="275"  height="400">
 <br>
 <br>
 Ama tamamının yazılmasını beklemek asırlar sürerdi herhalde.
