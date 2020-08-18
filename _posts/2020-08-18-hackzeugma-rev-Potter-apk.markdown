@@ -87,7 +87,7 @@ Java.perform(function() {
 			console.log(this.r.value);
 			this.r.value=0;
 			console.log(this.r.value);
-			var ret = this.onCreate.overload("android.os.Bundle").call(this, var_0);
+			this.onCreate.overload("android.os.Bundle").call(this, var_0);
 	}
 });
 {% endhighlight %}
