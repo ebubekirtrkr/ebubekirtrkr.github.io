@@ -70,7 +70,7 @@ public class MainActivity extends c {
 
 {% highlight java %}
 double d = (double) MainActivity.this.r;
-...
+
 mainActivity2.r = (long) (pow * d);
 {% endhighlight %}
 <hr>
