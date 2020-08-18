@@ -45,7 +45,15 @@ public void run() {
 <br>
 
 
-{% highlight java %} Thread.sleep(MainActivity.this.r * ((long) i));{% endhighlight %} ve {% highlight java %}Thread.sleep(MainActivity.this.r);{% endhighlight %} satırlarından anlaşılacağı üzere
+{% highlight java %}
+Thread.sleep(MainActivity.this.r * ((long) i));
+{% endhighlight %}
+
+ve
+{% highlight java %}
+Thread.sleep(MainActivity.this.r);{% endhighlight %}
+
+satırlarından anlaşılacağı üzere
 eğer `r` yi `0` yaparsak, hiç beklemeyecekti.
 Ayrıca `r`, oluşturulurken 100 e eşitlenmişti
 
