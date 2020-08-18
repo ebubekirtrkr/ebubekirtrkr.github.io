@@ -42,6 +42,7 @@ public void run() {
     }
     }
 {% endhighlight %}
+<hr>
 <br>
 
 
@@ -64,7 +65,7 @@ public class MainActivity extends c {
     public long r = 100;
     ...
 {% endhighlight %}
-
+<hr>
 <br>veeee
 
 {% highlight java %}
@@ -72,6 +73,7 @@ double d = (double) MainActivity.this.r;
 ...
 mainActivity2.r = (long) (pow * d);
 {% endhighlight %}
+<hr>
 
 satırlarında `d`'yi `r`'ye eşitleyip `pow` değişkenini `d` ile çarpttığından, eğer `r` yi başlangıçta `0` yaparsak,  `r` hep `0` kalacaktı.
 
