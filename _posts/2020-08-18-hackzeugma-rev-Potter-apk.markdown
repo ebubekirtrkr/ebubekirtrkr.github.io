@@ -42,9 +42,10 @@ public void run() {
     }
     }
 {% endhighlight %}
+<br>
 
 
-`Thread.sleep(MainActivity.this.r * ((long) i));` ve `Thread.sleep(MainActivity.this.r);` satırlarından anlaşılacağı üzere
+{% highlight java %} Thread.sleep(MainActivity.this.r * ((long) i));{% endhighlight %} ve {% highlight java %}Thread.sleep(MainActivity.this.r);{% endhighlight %} satırlarından anlaşılacağı üzere
 eğer `r` yi `0` yaparsak, hiç beklemeyecekti.
 Ayrıca `r`, oluşturulurken 100 e eşitlenmişti
 
@@ -55,6 +56,8 @@ public class MainActivity extends c {
     public long r = 100;
     ...
 {% endhighlight %}
+
+<br>veeee
 
 {% highlight java %}
 double d = (double) MainActivity.this.r;
