@@ -3,9 +3,7 @@
 Hackzeugma CTF 2020 yarı finallerinde çözdüğüm Potter sorusunun çözümünü anlatacağım.
 
 Bize bir apk verilmişti.
-<a href="/assets/files/potter/potter.apk" download="potter.apk">
-    potter.apk
-</a>
+<a href="/assets/files/potter/potter.apk" download="potter.apk">potter.apk</a>
 Bu apk'yi yükleyip çalıştırıp butona tıkladığımızda bir textbox'a flag'ı yazıyordu.
 <br>
 <br>
@@ -53,10 +51,11 @@ public void run() {
 Thread.sleep(MainActivity.this.r * ((long) i));
 {% endhighlight %}
 <hr>
-<br>
 ve
+<hr>
 {% highlight java %}
-Thread.sleep(MainActivity.this.r);{% endhighlight %}
+Thread.sleep(MainActivity.this.r);
+{% endhighlight %}
 <hr>
 <br>
 satırlarından anlaşılacağı üzere
@@ -71,21 +70,19 @@ public class MainActivity extends c {
     ...
 {% endhighlight %}
 <hr>
-<br>veeee
+veeee
 <hr>
 {% highlight java %}
 double d = (double) MainActivity.this.r;
-
+...
 mainActivity2.r = (long) (pow * d);
 {% endhighlight %}
 <hr>
 
-satırlarında `d`'yi `r`'ye eşitleyip `pow` değişkenini `d` ile çarpttığından, eğer `r` yi başlangıçta `0` yaparsak,  `r` hep `0` kalacaktı.
+satırlarında `d`'yi `r`'ye eşitleyip `pow` değişkenini `d` ile çarptığından, eğer `r` yi başlangıçta `0` yaparsak,  `r` hep `0` kalacaktı.
 
 frida-server'i çalıştırıp
-<a href="/assets/files/potter/potter.js" download="potter.js">
-    potter.js
-</a>
+<a href="/assets/files/potter/potter.js" download="potter.js">potter.js</a>
 <hr>
 {% highlight javascript %}
 Java.perform(function() {
