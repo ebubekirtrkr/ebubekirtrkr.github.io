@@ -11,7 +11,7 @@ Bu apk'yi yükleyip çalıştırıp butona tıkladığımızda bir textbox'a fla
 <img src="/assets/images/potter/1.png"  width="275"  height="400">
 <br>
 <br>
-Ama tamamının yazılmasını beklemek asırlar sürerdi herhalde.
+Ama tamamının yazılmasını beklemek asırlar sürerdi herhalde. <br>
 Apk'yı jadx-gui ile açıp MainActivity'nin içindeki a inner classına ait run methoduna baktığımızda
 <hr>
 {% highlight java %}
@@ -45,6 +45,7 @@ public void run() {
     }
 {% endhighlight %}
 <hr>
+<br>
 
 
 {% highlight java %}
@@ -57,9 +58,8 @@ ve
 Thread.sleep(MainActivity.this.r);
 {% endhighlight %}
 <hr>
-<br>
 satırlarından anlaşılacağı üzere
-eğer `r` yi `0` yaparsak, hiç beklemeyecekti.
+eğer `r` yi `0` yaparsak, hiç beklemeyecekti. <br>
 Ayrıca `r`, oluşturulurken 100 e eşitlenmişti
 
 <hr>
@@ -80,7 +80,7 @@ mainActivity2.r = (long) (pow * d);
 <hr>
 
 satırlarında `d`'yi `r`'ye eşitleyip `pow` değişkenini `d` ile çarptığından, eğer `r` yi başlangıçta `0` yaparsak,  `r` hep `0` kalacaktı.
-
+<br>
 frida-server'i çalıştırıp
 <a href="/assets/files/potter/potter.js" download="potter.js">potter.js</a>
 <hr>
@@ -96,8 +96,9 @@ Java.perform(function() {
 });
 {% endhighlight %}
 <hr>
-dosyasını <br>
-`frida  -f com.hz.potter -l potter.js --no-pause` <br> ile gönderip butona tıkladığımızda flag anında karşımıza çıkıyordu
+dosyasını <hr>
+`frida  -f com.hz.potter -l potter.js --no-pause`<hr>
+ile gönderip butona tıkladığımızda flag anında karşımıza çıkıyordu
 
 
 
