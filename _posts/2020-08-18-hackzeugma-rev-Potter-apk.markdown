@@ -96,8 +96,10 @@ Java.perform(function() {
 });
 {% endhighlight %}
 <hr>
-dosyasını <hr>
-`frida  -f com.hz.potter -l potter.js --no-pause`<hr>
+dosyasını
+<hr>
+frida  -f com.hz.potter -l potter.js --no-pause
+<hr>
 ile gönderip butona tıkladığımızda flag anında karşımıza çıkıyordu
 
 
