@@ -2,7 +2,10 @@
 
 Hackzeugma CTF 2020 yarı finallerinde çözdüğüm Potter sorusunun çözümünü anlatacağım.
 
-Bize bir apk verilmişti.1
+Bize bir apk verilmişti.
+<a href="/assets/files/potter/potter.apk" download="potter.apk">
+    potter.apk
+</a>
 Bu apk'yi yükleyip çalıştırıp butona tıkladığımızda bir textbox'a flag'ı yazıyordu.
 <br>
 <br>
@@ -12,6 +15,7 @@ Bu apk'yi yükleyip çalıştırıp butona tıkladığımızda bir textbox'a fla
 <br>
 Ama tamamının yazılmasını beklemek asırlar sürerdi herhalde.
 Apk'yı jadx-gui ile açıp MainActivity'nin içindeki a inner classına ait run methoduna baktığımızda
+<hr>
 {% highlight java %}
 
 public void run() {
@@ -43,30 +47,32 @@ public void run() {
     }
 {% endhighlight %}
 <hr>
-<br>
 
 
 {% highlight java %}
 Thread.sleep(MainActivity.this.r * ((long) i));
 {% endhighlight %}
-
+<hr>
+<br>
 ve
 {% highlight java %}
 Thread.sleep(MainActivity.this.r);{% endhighlight %}
-
+<hr>
+<br>
 satırlarından anlaşılacağı üzere
 eğer `r` yi `0` yaparsak, hiç beklemeyecekti.
 Ayrıca `r`, oluşturulurken 100 e eşitlenmişti
 
+<hr>
 {% highlight java %}
 public class MainActivity extends c {
-    public int[] p = {8, 7, 15, 9, 0, 1, 11, 2, 3, 5, 13, 12, 14, 6, 10, 4};
-    public TextView q;
+    ....
     public long r = 100;
     ...
 {% endhighlight %}
+<hr>
 <br>veeee
-
+<hr>
 {% highlight java %}
 double d = (double) MainActivity.this.r;
 
@@ -77,21 +83,24 @@ mainActivity2.r = (long) (pow * d);
 satırlarında `d`'yi `r`'ye eşitleyip `pow` değişkenini `d` ile çarpttığından, eğer `r` yi başlangıçta `0` yaparsak,  `r` hep `0` kalacaktı.
 
 frida-server'i çalıştırıp
-potter.js
+<a href="/assets/files/potter/potter.js" download="potter.js">
+    potter.js
+</a>
+<hr>
 {% highlight javascript %}
 Java.perform(function() {
 	var main_activity= Java.use("com.hz.potter.MainActivity");
-
 	main_activity.onCreate.overload("android.os.Bundle").implementation = function(var_0) {
-			console.log(this.r.value);
-			this.r.value=0;
-			console.log(this.r.value);
-			this.onCreate.overload("android.os.Bundle").call(this, var_0);
+        console.log(this.r.value);
+        this.r.value=0;
+        console.log(this.r.value);
+        this.onCreate.overload("android.os.Bundle").call(this, var_0);
 	}
 });
 {% endhighlight %}
-dosyasını
-`frida  -f com.hz.potter -l potter.js --no-pause` ile gönderip butona tıkladığımızda flag anında karşımıza çıkıyordu
+<hr>
+dosyasını <br>
+`frida  -f com.hz.potter -l potter.js --no-pause` <br> ile gönderip butona tıkladığımızda flag anında karşımıza çıkıyordu
 
 
 
