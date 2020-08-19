@@ -13,7 +13,7 @@ aboutMe = {
     "isim"      : "Ebubekir",
     "yas"       : dt.now().year - 1998,
     "universite": "Ankara Üniversitesi",
-    "bölüm"     : "Bilgisayar Mühendisliiği (İngilizce)",
+    "bölüm"     : "Bilgisayar Mühendisliği (İngilizce)",
     "sinif"     : dt.now().year - 2017,
     "diller"    : {
         "Türkçe" : [ str(dt.now().year - 1998)  + "+","native"],
