@@ -79,7 +79,7 @@ mainActivity2.r = (long) (pow * d);
 {% endhighlight %}
 <hr>
 
-satırlarında `d`'yi `r`'ye eşitleyip `pow` değişkenini `d` ile çarptığından, eğer `r` yi başlangıçta `0` yaparsak,  `r` hep `0` kalacaktı.
+satırlarında `d`'yi `r`'ye eşitleyip `pow` değişkenini `d` ile çarptığından, eğer `r` yi `lol` fonskiyonu çağrıldığında `0` yaparsak,  `r` hep `0` kalacaktı.
 <br>
 frida-server'i çalıştırıp
 <a href="/assets/files/potter/potter.js" download="potter.js">potter.js</a>
@@ -87,11 +87,11 @@ frida-server'i çalıştırıp
 {% highlight javascript %}
 Java.perform(function() {
 	var main_activity= Java.use("com.hz.potter.MainActivity");
-	main_activity.onCreate.overload("android.os.Bundle").implementation = function(var_0) {
+	main_activity.lol.implementation = function(var_0) {
         console.log(this.r.value);
         this.r.value=0;
         console.log(this.r.value);
-        this.onCreate.overload("android.os.Bundle").call(this, var_0);
+        this.lol(var_0);
 	}
 });
 {% endhighlight %}
