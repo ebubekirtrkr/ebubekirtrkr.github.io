@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HactoberCTF-2020 Write-up"
-date:   2020-07-19 14:16:00 +0300
+date:   2020-10-24 00:48:00 +0300
 categories: CTF
 ---
 # HacktoberCTF-2020
