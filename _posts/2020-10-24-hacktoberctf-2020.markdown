@@ -10,51 +10,195 @@ I was in the `Numinous Episcopate` with teammates [batcain](http://github.com/ba
 We completed CTF at `38.` place with `4805` points.
 
 ## Challenges
-### Cryptography
-|               Name               |           Link          |  Points  |
-| :--------------------| :-------------:  | :-------:|
-|  Bone to Pick   | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Cryptography/Bone%20to%20Pick/index.md) |80|
-| Cover Your Bases | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Cryptography/Cover%20Your%20Bases/index.md) |30|
-| Hail Caesar! | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Cryptography/Hail%20Caesar!/index.md) |10|
-
-### Forensics
-|               Name               |           Link          |  Points  |
-| :--------------------| :-------------:  | :-------:|
-| Bonus/Public Service   | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Bonus/Public%20Service/index.md) |100|
-| Captured Memories | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Captured%20Memories/index.md) |30|
-| Commands | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Commands/index.md) |100|
-| Evil Twin | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Evil%20Twin/index.md) |150|
-| Hell Spawn 1 | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Hell%20Spawn%201/index.md) |100|
-| Hell Spawn 2 | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Hell%20Spawn%202/index.md) |125|
-| Prefetch Perfection | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Prefetch%20Perfection/index.md) |50|
-| ShellCode Extraction | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/ShellCode%20Extraction/index.md) |300|
-
-### Programming
-
-|               Name               |           Link          |  Points  |
-| :--------------------| :-------------:  | :-------:|
-| MESSAGE IN ARRAY | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Programming/MESSAGE%20IN%20ARRAY/index.md) |10|
-| Stairway to Hell | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Programming/Stairway%20to%20Hell/index.md) |250|
-| Trick or Treat | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Programming/Trick%20or%20Treat/index.md) |50|
-
-### Sql
-
-|               Name               |           Link          |  Points  |
-| :--------------------| :-------------:  | :-------:|
-| Calisota | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Sql/Calisota/index.md) |75|
-| Jigsaw | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Sql/Jigsaw/index.md) |325|
-| Student Body | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Sql/Student%20Body/index.md) |375|
-
-### Start
-|               Name               |           Link          |  Points  |
-| :--------------------| :-------------:  | :-------:|
-| Core Values | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/Core%20Values.md) |0|
-| DEADFACE-1 | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/DEADFACE-1.md) |0|
-| DEADFACE-2 | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/DEADFACE-2.md) |0|
-| Lets Begin | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/Lets%20Begin.md) |0|
-| Rules-1 | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/Rules-1.md) |0|
-| UNCOMN | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/UNCOMN.md) |0|
-### Web Exploitation
-|               Name               |           Link          |  Points  |
-| :--------------------| :-------------:  | :-------:|
-| What Lies in the Shadows | [Link](https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Web%20Exploitation/What%20Lies%20in%20the%20Shadows/index.md) |200|
+<h3 id="cryptography">Cryptography</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bone to Pick</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Cryptography/Bone%20to%20Pick/index.md">Link</a></td>
+<td style="text-align:center">80</td>
+</tr>
+<tr>
+<td style="text-align:left">Cover Your Bases</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Cryptography/Cover%20Your%20Bases/index.md">Link</a></td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td style="text-align:left">Hail Caesar!</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Cryptography/Hail%20Caesar!/index.md">Link</a></td>
+<td style="text-align:center">10</td>
+</tr>
+</tbody>
+</table>
+<h3 id="forensics">Forensics</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bonus/Public Service</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Bonus/Public%20Service/index.md">Link</a></td>
+<td style="text-align:center">100</td>
+</tr>
+<tr>
+<td style="text-align:left">Captured Memories</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Captured%20Memories/index.md">Link</a></td>
+<td style="text-align:center">30</td>
+</tr>
+<tr>
+<td style="text-align:left">Commands</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Commands/index.md">Link</a></td>
+<td style="text-align:center">100</td>
+</tr>
+<tr>
+<td style="text-align:left">Evil Twin</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Evil%20Twin/index.md">Link</a></td>
+<td style="text-align:center">150</td>
+</tr>
+<tr>
+<td style="text-align:left">Hell Spawn 1</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Hell%20Spawn%201/index.md">Link</a></td>
+<td style="text-align:center">100</td>
+</tr>
+<tr>
+<td style="text-align:left">Hell Spawn 2</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Hell%20Spawn%202/index.md">Link</a></td>
+<td style="text-align:center">125</td>
+</tr>
+<tr>
+<td style="text-align:left">Prefetch Perfection</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/Prefetch%20Perfection/index.md">Link</a></td>
+<td style="text-align:center">50</td>
+</tr>
+<tr>
+<td style="text-align:left">ShellCode Extraction</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Forensics/ShellCode%20Extraction/index.md">Link</a></td>
+<td style="text-align:center">300</td>
+</tr>
+</tbody>
+</table>
+<h3 id="programming">Programming</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">MESSAGE IN ARRAY</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Programming/MESSAGE%20IN%20ARRAY/index.md">Link</a></td>
+<td style="text-align:center">10</td>
+</tr>
+<tr>
+<td style="text-align:left">Stairway to Hell</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Programming/Stairway%20to%20Hell/index.md">Link</a></td>
+<td style="text-align:center">250</td>
+</tr>
+<tr>
+<td style="text-align:left">Trick or Treat</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Programming/Trick%20or%20Treat/index.md">Link</a></td>
+<td style="text-align:center">50</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sql">Sql</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Calisota</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Sql/Calisota/index.md">Link</a></td>
+<td style="text-align:center">75</td>
+</tr>
+<tr>
+<td style="text-align:left">Jigsaw</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Sql/Jigsaw/index.md">Link</a></td>
+<td style="text-align:center">325</td>
+</tr>
+<tr>
+<td style="text-align:left">Student Body</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Sql/Student%20Body/index.md">Link</a></td>
+<td style="text-align:center">375</td>
+</tr>
+</tbody>
+</table>
+<h3 id="start">Start</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Core Values</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/Core%20Values.md">Link</a></td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:left">DEADFACE-1</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/DEADFACE-1.md">Link</a></td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:left">DEADFACE-2</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/DEADFACE-2.md">Link</a></td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:left">Lets Begin</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/Lets%20Begin.md">Link</a></td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:left">Rules-1</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/Rules-1.md">Link</a></td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:left">UNCOMN</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Start/UNCOMN.md">Link</a></td>
+<td style="text-align:center">0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="web-exploitation">Web Exploitation</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">What Lies in the Shadows</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/hacktoberCTF-2020/Web%20Exploitation/What%20Lies%20in%20the%20Shadows/index.md">Link</a></td>
+<td style="text-align:center">200</td>
+</tr>
+</tbody>
+</table>
