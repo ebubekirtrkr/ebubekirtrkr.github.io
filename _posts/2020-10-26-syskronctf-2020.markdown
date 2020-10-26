@@ -1,0 +1,188 @@
+---
+layout: post
+title:  "syskronCTF-2020 Write-up"
+date:   2020-10-26 09:54:00 +0300
+categories: CTF
+---
+# syskronCTF-2020
+I was in the [`AUCC`](https://ctftime.org/team/32148) team.
+
+We completed CTF at `23.` place with `3420` points.
+
+[ctftime event page](https://ctftime.org/event/1148)
+
+<h2 id="challenges">Challenges</h2>
+<h3 id="welcome">Welcome</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Welcome</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Welcome/Welcome/README.md">Link</a></td>
+<td style="text-align:center">20</td>
+</tr>
+</tbody>
+</table>
+<h3 id="trivia">Trivia</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Check digit</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Trivia/Check%20digit/README.md">Link</a></td>
+<td style="text-align:center">25</td>
+</tr>
+<tr>
+<td style="text-align:left">Deadly malware</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Trivia/Deadly%20malware/README.md">Link</a></td>
+<td style="text-align:center">25</td>
+</tr>
+<tr>
+<td style="text-align:left">Security framework</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Trivia/Security%20framework/README.md">Link</a></td>
+<td style="text-align:center">25</td>
+</tr>
+<tr>
+<td style="text-align:left">Vulnerable RTOS</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Trivia/Vulnerable%20RTOS/README.md">Link</a></td>
+<td style="text-align:center">25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="monday">Monday</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">DoS attack</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Monday/DoS%20attack/README.md">Link</a></td>
+<td style="text-align:center">100</td>
+</tr>
+<tr>
+<td style="text-align:left">Redacted news</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Monday/Redacted%20news/README.md">Link</a></td>
+<td style="text-align:center">100</td>
+</tr>
+<tr>
+<td style="text-align:left">Security headers</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Monday/Security%20headers/README.md">Link</a></td>
+<td style="text-align:center">100</td>
+</tr>
+</tbody>
+</table>
+<h3 id="tuesday">Tuesday</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Bash history</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Tuesday/Bash%20history/README.md">Link</a></td>
+<td style="text-align:center">200</td>
+</tr>
+<tr>
+<td style="text-align:left">Change</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Tuesday/Change/README.md">Link</a></td>
+<td style="text-align:center">200</td>
+</tr>
+<tr>
+<td style="text-align:left">Leak audit</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Tuesday/Leak%20audit/README.md">Link</a></td>
+<td style="text-align:center">200</td>
+</tr>
+<tr>
+<td style="text-align:left">Security.txt</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Tuesday/Security_txt/README.md">Link</a></td>
+<td style="text-align:center">200</td>
+</tr>
+</tbody>
+</table>
+<h3 id="wednesday">Wednesday</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">HID</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Wednesday/HID/README.md">Link</a></td>
+<td style="text-align:center">300</td>
+</tr>
+<tr>
+<td style="text-align:left">Key generator</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Wednesday/Key%20generator/README.md">Link</a></td>
+<td style="text-align:center">300</td>
+</tr>
+<tr>
+<td style="text-align:left">Screenshot</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Wednesday/Screenshot/README.md">Link</a></td>
+<td style="text-align:center">300</td>
+</tr>
+</tbody>
+</table>
+<h3 id="thursday">Thursday</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Contact card</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Thursday/Contact%20card/README.md">Link</a></td>
+<td style="text-align:center">400</td>
+</tr>
+<tr>
+<td style="text-align:left">Exposed webcam</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Thursday/Exposed%20webcam/README.md">Link</a></td>
+<td style="text-align:center">400</td>
+</tr>
+</tbody>
+</table>
+<h3 id="friday">Friday</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Name</th>
+<th style="text-align:center">Link</th>
+<th style="text-align:center">Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Firmware update</td>
+<td style="text-align:center"><a href="https://github.com/ebubekirtrkr/write-ups/blob/master/syskronCTF-2020/Friday/Firmware%20update/README.md">Link</a></td>
+<td style="text-align:center">500</td>
+</tr>
+</tbody>
+</table>
