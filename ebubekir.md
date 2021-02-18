@@ -14,7 +14,7 @@ aboutMe = {
     "yas"       : dt.now().year - 1998,
     "universite": "Ankara Üniversitesi",
     "bölüm"     : "Bilgisayar Mühendisliği (İngilizce)",
-    "sinif"     : dt.now().year - 2017,
+    "sinif"     : ( dt.now().year - 2017 ) - 1,
     "diller"    : {
         "Türkçe" : [ str(dt.now().year - 1998)  + "+","native"],
         "English": ["3+","b1+"]
